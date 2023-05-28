@@ -1,0 +1,134 @@
+/* *{
+  box-sizing: border-box;
+  background-color: white;
+} */
+
+.outer_cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #eee;
+    height: 100vh;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  
+  .logo{
+    height: 72px;
+    width: 200px;
+    margin: 15px 0;
+    /* padding: 10px; */
+  }
+  
+  .btt{
+    width: 260px;
+    height: 30px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 9px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  .forpass{
+    font-size: 15px;
+  }
+  .forpass a{
+    text-decoration: none;
+  }
+  
+  .fb_sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  .line-1{
+    height: 1px;
+    width: 105px;
+    margin-right: 5px;
+    background-color: grey;
+  }
+  
+  
+  .fc{
+    margin: 3px 0px;
+    color: gray;
+    background-color: rgb(250, 250, 250);
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 13px;
+    padding: 9px 0 7px 8px;
+    height: 36px;
+    width: 260px;
+    border: 0;
+    outline: none;
+    border: 1px solid rgb(219, 219, 219);
+  
+  }
+  .container_1{
+    height: 350px;
+    width: 300px;
+    border: 1px solid darkgray;
+    
+  } 
+  .container_2{
+    height:50px ;
+    width: 300px ;
+    background-color: rgb(255,255,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0;
+    border: 1px solid darkgrey;
+    
+  }
+  .container_2 a{
+    text-decoration: none;
+    margin-left: 2px;
+  }
+  .getapp{
+    width: 300px;
+    margin: 3px;
+    background-color: #eee;
+  }
+  .appstore{
+    height: 50px;
+    width: 260px;
+    /* margin: 10px 0; */
+    
+  }
+  .p1{
+    height: 35px;
+    width: 100px;
+    margin-right: 5px;
+  }
+  .p2{
+    height: 55px;
+    width: 120px;
+    margin-left: 5px;
+  }
+  
+  .foot1{
+    width: 300px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .foot2{
+    width: 300px;
+    font-size: 12px;
+  }
+  .footer a{
+    text-decoration: none;
+    
+    
+  }
